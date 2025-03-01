@@ -1,20 +1,30 @@
-# React + TypeScript + Vite
+# 🚀 React + TypeScript + Vite  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project integrates **React**, **TypeScript**, and **Vite** in an advanced setup, ensuring fast performance and an optimal development experience. It includes TypeScript best practices and efficient form handling using **React Hook Form**.  
 
-Currently, two official plugins are available:
+## ⚡ Technologies Used  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* ⚛️ **React** – Component-based UI library  
+* 🟦 **TypeScript** – Strongly-typed JavaScript  
+* ⚡ **Vite** – Lightning-fast development environment  
+* 📄 **React Hook Form** – Form validation and management  
+* 🎨 **ESLint & Prettier** – Code linting and formatting  
 
-This project is built with **TypeScript**, **React**, and **Vite**.
+---
 
-## ⚡ Technologies Used
-- **React** ⚛️ - Frontend framework
-- **TypeScript** 🟦 - Typed JavaScript
-- **Vite** ⚡ - Lightning fast development environment
+## 📜 Features  
 
-## 📜 Getting Started
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/your-repo.git
+* ⚡ **Vite-powered** – Fast and efficient bundling  
+* 🛡 **Advanced TypeScript** – Enhanced type safety and maintainability  
+* ✅ **Form Handling** – Utilizes **React Hook Form** for streamlined validation  
+* 🏗 **Modular Architecture** – Scalable React component structure  
+* 🏎 **Optimized Performance** – Implements lazy loading & code splitting  
+* 🎯 **Consistent Code Quality** – Uses ESLint & Prettier for best practices  
+
+---
+
+## 🔧 Getting Started  
+
+### 📥 Clone the Repository  
+```sh
+git clone https://github.com/your-username/your-repo.git

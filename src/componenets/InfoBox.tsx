@@ -1,25 +1,36 @@
 import React, { FC, ReactNode } from 'react'
 
-type InfoBoxType = {
-    mode: 'hint' | 'warning',
+
+type InfoBoxHint = {
+    mode: 'hint',
     children:ReactNode
 }
 
+type InfoBoxWarning = {
+    mode:'warning',
+    severity: 'small'|'medium' |'big',
+    children:ReactNode
+}
 
-const InfoBox:FC<InfoBoxType> = ({mode,children}) => {
+type InfoBoxType = InfoBoxHint | InfoBoxWarning;
+
+
+const InfoBox:FC<InfoBoxType> = (props) => {
+
   
-    if(mode === 'hint'){
+    if(props.mode === 'hint'){
         return(
             <aside className='infobox infobox-hint'>
-                <p>{children}</p>
+                <p>{props.children}</p>
             </aside>
         )
     }
+
   
     return (
-    <aside className='infobox infobox-warning warrning--medium '>
+    <aside className={`infobox infobox-warning warning--medium warning--${props.severity}`}>
         <h2>Warning</h2>
-        <p>{children}</p>
+        <p>{props.children}</p>
     </aside>
   )
 }

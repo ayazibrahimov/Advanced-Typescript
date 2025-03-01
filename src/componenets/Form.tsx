@@ -18,7 +18,6 @@ const Form:FC<TypeFormFc> = ({handleForm}) => {
   const onSubmit: SubmitHandler<FormDataType> = (data) => {
     handleForm(data);
     reset()
-
   };
 
   return (

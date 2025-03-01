@@ -154,8 +154,6 @@ li button:hover {
   color: #e67e22; /* Turuncuya yaxın yazı */
   background: transparent;
   text-align: center;
-  font-size: 14px;
-  font-weight: 500; /* Medium yazı */
   padding: 10px 15px;
   display: flex;
   flex-direction: column;
@@ -164,4 +162,20 @@ li button:hover {
   /* width: fit-content; */
   border-radius: 5px;
   margin-bottom: 16px;
+}
+
+
+.warning--low{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.warning--medium{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.warning--big{
+  font-size: 18px;
+  font-weight: 700;
 }

@@ -20,7 +20,7 @@ const List:FC<ListProps> = ({user,onDelete}) => {
     let warningBox: ReactNode ;
 
     if(user.length>=4){
-        warningBox = <InfoBox mode='warning'>You have added at least 4 element.
+        warningBox = <InfoBox mode='warning' severity='big' >You have added at least 4 element.
         Dont put too much your plate!
         </InfoBox>
     }
